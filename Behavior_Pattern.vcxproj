@@ -141,10 +141,12 @@
   <ItemGroup>
     <ClInclude Include="Chain_of_Responsibility.h" />
     <ClInclude Include="command.h" />
+    <ClInclude Include="Iterator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chain_of_Responsibility.cpp" />
     <ClCompile Include="command.cpp" />
+    <ClCompile Include="Iterator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
