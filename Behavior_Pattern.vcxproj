@@ -146,7 +146,9 @@
   <ItemGroup>
     <ClCompile Include="Chain_of_Responsibility.cpp" />
     <ClCompile Include="command.cpp" />
-    <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="Iterator.cpp">
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdcpp20</LanguageStandard>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

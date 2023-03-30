@@ -11,10 +11,6 @@ class Iterator
 {
 public:
 	typedef typename vector<T>::iterator iter_type;
-private:
-	U* _pdata;
-	iter_type _it;
-public:
 	Iterator(U* p_data, bool reverse = false) : _pdata(p_data)
 	{
 		_it = _pdata->_data.begin();
@@ -35,30 +31,33 @@ public:
 	{
 		return _it;
 	}
+private:
+	U* _pdata;
+	iter_type _it;
 };
 
 
 template <class T>
-class container
+class Container
 {
-	friend class Iterator<T, container>;
-private:
-	vector<T> _data;
+	friend class Iterator<T, Container>;
+
 public:
 	void add(T data)
 	{
 		_data.push_back(data);
 	}
-	Iterator<T, container>* create_iterator()
+	Iterator<T, Container>* create_iterator()
 	{
-		return new Iterator<T, container>(this);
+		return new Iterator<T, Container>(this);
 	}
+private:
+	vector<T> _data;
 };
 
 class Data
 {
-private:
-	int _data;
+
 public:
 	Data(int __data = 0) :_data(__data) {}
 	void set_data(int __data)
@@ -69,6 +68,8 @@ public:
 	{
 		return _data;
 	}
+private:
+	int _data;
 };
 
 
