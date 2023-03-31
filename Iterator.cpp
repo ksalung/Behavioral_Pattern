@@ -29,8 +29,8 @@ void clientcode()
 	delete it2;
 }
 
-int main()
-{
-	clientcode();
-	return 0;
-}
+//int main()
+//{
+//	clientcode();
+//	return 0;
+//}

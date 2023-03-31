@@ -142,6 +142,7 @@
     <ClInclude Include="Chain_of_Responsibility.h" />
     <ClInclude Include="command.h" />
     <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Mediator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chain_of_Responsibility.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="Iterator.cpp">
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdcpp20</LanguageStandard>
     </ClCompile>
+    <ClCompile Include="Mediator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
