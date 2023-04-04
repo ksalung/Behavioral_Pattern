@@ -15,8 +15,8 @@ void client_code()
 	delete mediator;
 }
 
-int main()
-{
-	client_code();
-	return 0;
-}
+//int main()
+//{
+//	client_code();
+//	return 0;
+//}
