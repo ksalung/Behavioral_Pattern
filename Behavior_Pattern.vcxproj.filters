@@ -30,6 +30,9 @@
     <ClInclude Include="Memento.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chain_of_Responsibility.cpp">
@@ -45,6 +48,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Memento.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="observer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -19,9 +19,9 @@ void client_code2()
 	delete _caretaker;
 }
 
-int main()
-{
-	srand(static_cast<unsigned int>(time(NULL)));
-	client_code2();
-	return 0;
-}
+//int main()
+//{
+//	srand(static_cast<unsigned int>(time(NULL)));
+//	client_code2();
+//	return 0;
+//}
