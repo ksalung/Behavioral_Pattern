@@ -145,6 +145,7 @@
     <ClInclude Include="Mediator.h" />
     <ClInclude Include="Memento.h" />
     <ClInclude Include="observer.h" />
+    <ClInclude Include="State.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chain_of_Responsibility.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="Mediator.cpp" />
     <ClCompile Include="Memento.cpp" />
     <ClCompile Include="observer.cpp" />
+    <ClCompile Include="State.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

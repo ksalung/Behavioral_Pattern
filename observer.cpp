@@ -31,8 +31,8 @@ void client_code_ob()
 	delete obs1;
 }
 
-int main()
-{
-	client_code_ob();
-	return 0;
-}
+//int main()
+//{
+//	client_code_ob();
+//	return 0;
+//}
